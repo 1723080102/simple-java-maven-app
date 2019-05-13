@@ -9,7 +9,7 @@ pipeline {
         stage('Build') {
             steps {
                 bat 'd:'
-                bat 'cd D:\chenjunjie\.jenkins\jobs\simple-java-maven-app\simple-java-maven-app'
+                bat 'cd D:\chenjunjie\.jenkins\jobs\simple-java-maven-app'
                 bat 'mvn -B -DskipTests clean package'
             }
         }
